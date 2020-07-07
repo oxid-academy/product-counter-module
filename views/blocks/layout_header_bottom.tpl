@@ -5,8 +5,8 @@
 [{if $numberOfProducts}]
     <div style='padding: 20px; font-weight: bold; background: #ffe082;'>
         [{if $oxcmp_user && $oConfig->getConfigParam('oxacproductcountermodule_greetingactive')}]
-            Hallo [{$oxcmp_user->oxuser__oxfname}]!
+            [{oxmultilang ident='oxacproductcountermodule_bannerGreeting'}] [{$oxcmp_user->oxuser__oxfname}]!
         [{/if}]
-        Wähle aus [{$numberOfProducts}] verschiedenen Produkten Deine Lieblinge aus!
+        [{oxmultilang ident='oxacproductcountermodule_bannerBeforeCounter'}] [{$numberOfProducts}] [{oxmultilang ident='oxacproductcountermodule_bannerAfterCounter'}]
     </div>
 [{/if}]
