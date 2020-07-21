@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OX>
     <OXMENU id="NAVIGATION_ESHOPADMIN">
-        <MAINMENU id="productcounter_menu">
-            <SUBMENU id="productcounter_submenu_greeting" cl="product_counter_greeting"></SUBMENU>
+        <MAINMENU id="oxacproductcountermodule_mainmenu">
+            <SUBMENU id="oxacproductcountermodule_submenu_greeting" cl="product_counter_greeting"></SUBMENU>
         </MAINMENU>
     </OXMENU>
 </OX>
