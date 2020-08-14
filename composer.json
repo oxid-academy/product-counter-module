@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": "^7.4",
-        "oxid-academy/product-counter-service": "dev-master"
+        "oxid-academy/product-counter-service": "^1.0"
     },
     "autoload": {
         "psr-4": {
