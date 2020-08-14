@@ -1,0 +1,29 @@
+form {
+    padding: 20px;
+}
+
+label,
+input[type=submit] {
+    height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #8ac;
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+label:hover,
+label:focus,
+input[type=submit]:hover,
+input[type=submit]:focus {
+    background-color: #8ac;
+}
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+}

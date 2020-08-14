@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="[{$oViewConf->getModuleUrl('oxacproductcountermodule', 'out/admin/src/style.css')}]">
+
 <form action="[{$oViewConf->getSelfLink()}]" method="POST">
     [{$oViewConf->getHiddenSid()}]
     <input type="hidden" name="cl" value="product_counter_greeting">
