@@ -11,15 +11,15 @@ $sMetadataVersion = '2.1';
 $aModule = [
     'id'          => 'oxacproductcountermodule',
     'title'       => [
-        'de' => 'OXAC Produkt Counter Modul',
-        'en' => 'OXAC Product Counter Module',
+        'de' => 'OXID Academy :: Produkt Counter Modul',
+        'en' => 'OXID Academy :: Product Counter Module',
     ],
     'description' => [
         'de' => 'Zeigt einen Banner auf der Startseite an mit der Anzahl der verfügbare Produkten.',
         'en' => 'Displays a banner on the home page showing the number of available products.',
     ],
     'thumbnail'   => '',
-    'version'     => '1.0.0',
+    'version'     => '1.0.1',
     'author'      => 'OXID Academy',
     'url'         => 'https://www.oxid-esales.com/',
     'email'       => 'academy@oxid-esales.com',
