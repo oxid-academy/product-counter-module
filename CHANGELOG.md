@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.1] - 2022-02-14
 ### Changed
+- `StartController` declared strict type mode.
+- `GreetingController` declared strict type mode.
 - `composer.json` increased required PHP version to version 8.0.
 
 ## [1.0.0] - 2020-08-14

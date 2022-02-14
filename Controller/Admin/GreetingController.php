@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace OxidAcademy\ProductCounterModule\Controller\Admin;
 
 use OxidEsales\Eshop\Application\Controller\Admin\AdminController;
@@ -17,7 +19,8 @@ class GreetingController extends AdminController
 
     public function __construct()
     {
-        $this->moduleSettingBridge = ContainerFactory::getInstance()
+        $this
+            ->moduleSettingBridge = ContainerFactory::getInstance()
             ->getContainer()
             ->get(ModuleSettingBridgeInterface::class);
     }

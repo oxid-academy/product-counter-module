@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace OxidAcademy\ProductCounterModule\Controller;
 
 use OxidAcademy\ProductCounterService\Counter;
@@ -20,6 +22,6 @@ class StartController extends StartController_parent
         $container = $containerFactory->getContainer();
         $counterService = $container->get(Counter::class);
 
-        return $counterService->count();
+        return (int) $counterService->count();
     }
 }
