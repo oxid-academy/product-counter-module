@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2022-02-14
+### Changed
+- `composer.json` increased required PHP version to version 8.0.
+
 ## [1.0.0] - 2020-08-14
 ### Added
 - `StartController` extends the OXID `StartController` and assigns the number of products to a template variable.
