@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.1] - 2022-02-14
+## [1.0.1] - 2022-02-15
 ### Changed
 - `metadata.php` incresed the version number and changed the modules title.
 - `StartController` declared strict type mode.
