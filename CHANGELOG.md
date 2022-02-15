@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.1] - 2022-02-15
 ### Changed
-- `metadata.php` incresed the version number and changed the modules title.
+- `metadata.php` increased the version number and changed the modules title.
 - `StartController` declared strict type mode.
 - `GreetingController` declared strict type mode.
 - `composer.json` increased required PHP version to version 8.0.
